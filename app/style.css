@@ -1,0 +1,27 @@
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card{
+width: 200px;
+height: 200px;
+padding: 12px 20px;
+border: 1px solid black;
+margin: 4px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+
+}
+.page-number{
+    padding: 2px 5px;
+    border: 2px solid blue;
+    margin: 2px;
+    cursor: pointer;
+}
